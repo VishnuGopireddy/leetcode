@@ -18,6 +18,3 @@ class Solution:
             return num
         else:
             return 0
-
-s = Solution()
-print(s.reverse(1534236469))
