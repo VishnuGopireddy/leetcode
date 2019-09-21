@@ -4,6 +4,7 @@ Example:
 Input: -123
 Output: -321
 '''
+
 class Solution:
     def reverse(self, x):
         num = x
@@ -18,3 +19,6 @@ class Solution:
             return num
         else:
             return 0
+
+s = Solution()
+print(s.reverse(-121))
