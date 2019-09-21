@@ -22,5 +22,3 @@ class Solution:
                 j = j - 1
 
         return indices
-
-
