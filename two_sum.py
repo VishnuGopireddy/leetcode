@@ -20,5 +20,4 @@ class Solution:
                 i = i + 1
             else:
                 j = j - 1
-
         return indices
