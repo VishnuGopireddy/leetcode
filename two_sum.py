@@ -11,8 +11,6 @@ class Solution:
 '''
 
 class Solution:
-
-
     def twoSum(self,nums,target):
         i = 0, j = len(nums)
         sum = nums[i] + nums[j]
