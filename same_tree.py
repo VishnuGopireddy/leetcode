@@ -25,7 +25,6 @@ class Solution:
         tree2 = Inorder()
         tree1.inorder(p)
         tree2.inorder(q)
-
         #        print(tree1.stack)
         #        print(tree2.stack)
         if tree1 == tree2:
