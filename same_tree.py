@@ -17,8 +17,6 @@ class Inorder:
             self.stack.append(root.val)
             print(root.val)
             self.inorder(root.right)
-
-
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         tree1 = Inorder()
