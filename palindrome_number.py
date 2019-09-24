@@ -14,7 +14,5 @@ class Solution:
             return True
         else:
             return False
-
-
 s = Solution()
 print(s.isPalindrome(-121))
