@@ -1,16 +1,15 @@
 #https://leetcode.com/problems/available-captures-for-rook/
 
 def numRookCaptures(board):
-    for i in board:
-        print(i)
     for i in range(8):
         for j in range(8):
             if board[i][j] == 'R':
                 row,col = i,j
     pos = row
+    print(row,col)
     up = down =left = right = 0
     #Downwards
-    while pos <= 8:
+    while pos < 8:
         if board[pos][col] == 'B':
             break
         elif board[pos][col] == '.':
@@ -19,8 +18,8 @@ def numRookCaptures(board):
             down = 1
             break
         pos = pos + 1
-    print(down)
-    print('----')
+#    print(down)
+#    print('----')
 #UPwards
     pos = row
     while pos >= 0:
@@ -32,12 +31,12 @@ def numRookCaptures(board):
             up = 1
             break
         pos = pos - 1
-    print(up)
-    print('------')
+#    print(up)
+#    print('------')
 
     #RIGHT
     pos = col
-    while pos <= 8:
+    while pos < 8:
         if board[row][pos] == 'B':
             break
         elif board[row][pos] == '.':
@@ -47,8 +46,8 @@ def numRookCaptures(board):
             break
 
         pos = pos + 1
-    print(right)
-    print('------')
+#    print(right)
+#    print('------')
 
     #LEFT
     pos = col
@@ -64,5 +63,6 @@ def numRookCaptures(board):
 #    print(left)
 #    print('------')
     print(up+down+left+right)
-board = [[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","R",".",".",".","p"],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]]
+
+board = [[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".","R",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]]
 numRookCaptures(board)
