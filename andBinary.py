@@ -37,5 +37,5 @@ def addBinary(a,b):
     result = result[::-1]
     print(''.join(result))
 
-addBinary('101','101')
+addBinary('1010','1011')
 
