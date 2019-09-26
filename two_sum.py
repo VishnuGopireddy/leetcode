@@ -13,8 +13,8 @@ class Solution:
     def twoSum(self,nums,target):
         hash = {}
         for i in range(len(nums)):
-            if i in hash:
-                return [hash[i],i]
+            if nums[i] in hash:
+                return[hash[nums[i]],i]
             else:
                 diff = target - nums[i]
                 hash.update({diff:i})
