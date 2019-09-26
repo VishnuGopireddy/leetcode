@@ -9,15 +9,19 @@ return [0, 1].
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
 '''
-
-
 class Solution:
     def twoSum(self,nums,target):
-        i = 0, j = len(nums)
-        sum = nums[i] + nums[j]
-        while i < j and sum != target:
-            if sum < target:
-                i = i + 1
+        hash = {}
+        for i in range(len(nums)):
+            if i in hash:
+                return [hash[i],i]
             else:
-                j = j - 1
-        return indices
+                diff = target - nums[i]
+                hash.update({diff:i})
+        return False
+
+s = Solution()
+nums = [2, 7, 11, 15]
+target = 9
+
+print(s.twoSum(nums,target))
