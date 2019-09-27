@@ -11,8 +11,6 @@ class Solution:
             return True
         else:
             return False
-
-
 sol = Solution()
 lst = ["10","0","1"]
 print(sol.findMaxForm(lst,1,1))
