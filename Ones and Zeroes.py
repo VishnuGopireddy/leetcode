@@ -11,6 +11,8 @@ class Solution:
             return True
         else:
             return False
+
+
 sol = Solution()
-lst = ['000101','1100','010']
-print(sol.findMaxForm(lst,2,3))
+lst = ["10","0","1"]
+print(sol.findMaxForm(lst,1,1))
