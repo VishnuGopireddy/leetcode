@@ -36,6 +36,7 @@ def check_str(s,m,n):
     else:
         return False
 
+
 Array = {"10", "0001", "111001", "1", "0"}
 m = 5
 n = 3
