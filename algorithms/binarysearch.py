@@ -19,9 +19,3 @@ def binary_search_iterative(nums,ele):
             
             
             
-            
-            
-            
-            
-            
-            
