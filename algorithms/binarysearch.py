@@ -8,3 +8,20 @@ def binary_search_iterative(nums,ele):
     while low <= high:
         mid = (low + high) // 2
         if ele < nums[mid]:
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
