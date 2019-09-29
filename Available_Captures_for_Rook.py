@@ -5,8 +5,6 @@ def numRookCaptures(board):
         for j in range(8):
             if board[i][j] == 'R':
                 row,col = i,j
-
-
     pos = row
     print(row,col)
     up = down =left = right = 0
