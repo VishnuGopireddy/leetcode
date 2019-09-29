@@ -6,8 +6,6 @@ class Solution:
                 count = count + 1
         return count
 
-
-
     def check_str(self,s, m, n):
         if s.count('0') <= m and s.count('1') <= n:
             return True
