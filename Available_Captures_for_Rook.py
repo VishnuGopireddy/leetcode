@@ -18,6 +18,8 @@ def numRookCaptures(board):
             down = 1
             break
         pos = pos + 1
+
+
 #    print(down)
 #    print('----')
 #UPwards
