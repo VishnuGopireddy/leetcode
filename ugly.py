@@ -8,6 +8,8 @@ Output: true
 Explanation: 6 = 2 × 3
 
 '''
+
+
 def ugly(num):
     ugly = 0
     if num < 1:
