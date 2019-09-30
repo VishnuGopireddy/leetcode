@@ -9,6 +9,8 @@ class Inorder:
     def __init__(self):
         self.stack = []
 
+
+
     def inorder(self, root):
         if root == None:
             return self.stack
