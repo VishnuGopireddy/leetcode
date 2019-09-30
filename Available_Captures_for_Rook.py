@@ -21,6 +21,8 @@ def numRookCaptures(board):
 #    print(down)
 #    print('----')
 #UPwards
+
+
     pos = row
     while pos >= 0:
         if board[pos][col] == 'B':
