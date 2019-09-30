@@ -7,4 +7,6 @@ Output: "hello"
 def tolower(s):
     return s.lower()
 
+
+
 print(tolower('VISHNU'))
