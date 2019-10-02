@@ -6,6 +6,8 @@ Example 1:
 Input: 121
 Output: true
 '''
+
+
 class Solution:
     def isPalindrome(self, x):
         if str(x) == str(x)[::-1]:
