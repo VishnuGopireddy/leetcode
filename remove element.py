@@ -15,7 +15,6 @@ Your function should return length = 2, with the first two elements of nums bein
 It doesn't matter what you leave beyond the returned length.
 '''
 
-
 def removeElement(nums, val):
     while True:
         try:
