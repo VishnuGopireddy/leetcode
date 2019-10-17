@@ -10,6 +10,9 @@ Output: "100"
 '''
 
 
+
+
+
 def addBinary(a,b):
     max_len = max(len(a),len(b))
     a = a.zfill(max_len)
