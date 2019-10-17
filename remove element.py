@@ -6,9 +6,6 @@ Do not allocate extra space for another array, you must do this by modifying the
 
 The order of elements can be changed. It doesn't matter what you leave beyond the new length.
 
-
-
-
 Example 1:
 
 Given nums = [3,2,2,3], val = 3,
