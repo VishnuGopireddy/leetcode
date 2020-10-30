@@ -8,8 +8,6 @@ Example 1:
 Input: a = "11", b = "1"
 Output: "100"
 '''
-
-
 def addBinary(a,b):
     max_len = max(len(a),len(b))
     a = a.zfill(max_len)
